@@ -6,10 +6,11 @@ void main(List<String> arguments) {
   bool dart = true;
   String nome = 'Marcelo Viana';
   String esporte = ' BJJ';
+  String frase = 'Meu nome é $nome tenho $idade anos, peso $peso e pratico$esporte . ';
 
 
 
   print(nome + esporte);
-  print('Meu nome é $nome tenho $idade anos, peso $peso e pratico$esporte . ' );
+  print(frase );
 
 }
