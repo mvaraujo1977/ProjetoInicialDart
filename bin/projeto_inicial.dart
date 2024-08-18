@@ -1,5 +1,7 @@
 
 
 void main(List<String> arguments) {
-  print('Olá mundo!');
+
+  int idade = 26;
+  print(idade);
 }
