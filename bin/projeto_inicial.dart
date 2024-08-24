@@ -1,12 +1,15 @@
 
 
 void main(List<String> arguments) {
-  int idade = 46;
-  double peso = 81.5;
-  bool dart = true;
-  String nome = 'Marcelo Viana';
-  String esporte = ' BJJ';
-  String frase = 'Meu nome é $nome \n tenho $idade anos, \n peso $peso e \n pratico$esporte . ';
+  var idade = 46;
+  var peso = 81.5;
+  var dart = true;
+  const String nome = 'Marcelo Viana';
+  final String esporte;
+  esporte = 'BJJ'; //agora não será aceita mais mudar pq a variavel foi setada como final
+
+
+  String frase = 'Meu nome é $nome \n tenho $idade anos, \n peso $peso e \n pratico $esporte . ';
 
   print(nome + esporte);
   print(frase );
