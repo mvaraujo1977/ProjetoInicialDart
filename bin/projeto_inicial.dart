@@ -75,5 +75,19 @@ void main(List<String> arguments) {
   }
   print(under18s); // => null
 
+  print('-----------Inicio do estudo de if/else -----------');
+
+  bool maiorDeIdade ;
+  print(idade);
+
+  if(idade>=18){
+    maiorDeIdade = true ;
+  }
+  else{
+    maiorDeIdade = false;
+  }
+
+  print(maiorDeIdade);
+
 
 }
