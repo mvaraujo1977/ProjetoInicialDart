@@ -90,4 +90,18 @@ void main(List<String> arguments) {
   print(maiorDeIdade);
 
 
+  print('-----------Inicio do estudo de loop For -----------');
+
+  var senha;
+  for (int i=0; i < 10; i++){
+    for(int j = 0; j <10; j++){
+      for(int x = 0; x<10; x++){
+        senha = '$i$j$x';
+        print(senha);
+      }
+    }
+  }
+
+
+
 }
