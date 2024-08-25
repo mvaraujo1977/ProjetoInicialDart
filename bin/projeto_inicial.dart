@@ -1,10 +1,13 @@
 void main(List<String> arguments) {
   /**
-  atalho pra arrumar o código  CTRL + ALT + L
-  atalho pra comentar Ctrl + /
-  atalho pra comentar em Bloco Ctrl + Shift + /
+      atalho pra arrumar o código  CTRL + ALT + L
+      atalho pra comentar Ctrl + /
+      atalho pra comentar em Bloco Ctrl + Shift + /
 
- **/
+      documentaçao https://dart.dev
+
+   **/
+
 
   var idade = 46;
   var peso = 81.5;
@@ -17,10 +20,12 @@ void main(List<String> arguments) {
   String frase =
       'Meu nome é $nome \n tenho $idade anos, \n peso $peso e \n pratico $esporte . ';
 
+
+
   print(nome + esporte);
   print(frase);
 
-///------------------------------------Listas---------------------------------------------------
+  ///------------------------------------Listas---------------------------------------------------
 
   print('-----------Inicio da Lista-----------');
 
