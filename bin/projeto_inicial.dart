@@ -92,16 +92,45 @@ void main(List<String> arguments) {
 
   print('-----------Inicio do estudo de loop For -----------');
 
-  var senha;
+
   for (int i=0; i < 10; i++){
-    for(int j = 0; j <10; j++){
-      for(int x = 0; x<10; x++){
-        senha = '$i$j$x';
-        print(senha);
-      }
-    }
+    print (i);
+
   }
 
+  print('-----------Inicio do estudo de loop while -----------');
 
+  var energia =100;
+  var voltas = 0;
+
+  while(energia > 0){
+    print('Minha energia esta em $energia %');
+    energia = energia -10;
+    voltas = voltas +1;
+
+
+  }
+
+  print('Estou sem energia!');
+  print('Consegui dar $voltas voltas');
+
+  energia = 100;
+  voltas = 0;
+
+  do{
+    print('Minha energia esta em $energia %');
+    energia = energia -10;
+    voltas = voltas +1;
+    if (energia <20){
+      break;
+    }
+
+
+  }while(energia >0);
+
+  print('Estou sem energia!');
+  print('Consegui dar $voltas voltas');
+
+  // Leia sobre break e continue no link https://www.geeksforgeeks.org/dart-loop-control-statements-break-and-continue/ --------------
 
 }
